@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lab 4
+</name>
+</assembly>
+<members>
+<member name="T:Lab_4.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Lab_4.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Lab_4.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Lab_4.Car.#ctor">
+ <summary>
+ Constructor - Default - creates a new car object
+ </summary>
+</member>
+<member name="M:Lab_4.Car.#ctor(System.String,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Constructor - Parameterized - creates a new car object
+ </summary>
+</member>
+<member name="M:Lab_4.frmCarInventory.Reset">
+ <summary>
+ Reset - set the controls back to their default state.
+ </summary>
+</member>
+<member name="M:Lab_4.frmCarInventory.IsValidInput">
+ <summary>
+ IsValidInput - validates the data in each control to ensure that the user has entered appropriate values
+ </summary>
+ <returns>Boolean</returns>
+</member>
+<member name="M:Lab_4.frmCarInventory.lvwCars_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ lvwCustomers_SelectedIndexChanged - when the user selected a row in the list it will populate the fields for editing
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>
