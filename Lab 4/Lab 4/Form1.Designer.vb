@@ -81,16 +81,18 @@ Partial Class frmCarInventory
         Me.txtModel.Name = "txtModel"
         Me.txtModel.Size = New System.Drawing.Size(245, 31)
         Me.txtModel.TabIndex = 3
+        Me.CarToolTip.SetToolTip(Me.txtModel, "Select the car's model")
         '
         'cmbYear
         '
         Me.cmbYear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbYear.FormattingEnabled = True
-        Me.cmbYear.Items.AddRange(New Object() {"2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010"})
+        Me.cmbYear.Items.AddRange(New Object() {"2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010"})
         Me.cmbYear.Location = New System.Drawing.Point(108, 123)
         Me.cmbYear.Name = "cmbYear"
         Me.cmbYear.Size = New System.Drawing.Size(245, 33)
         Me.cmbYear.TabIndex = 5
+        Me.CarToolTip.SetToolTip(Me.cmbYear, "What is the car's year of make?")
         '
         'lblYear
         '
@@ -107,6 +109,7 @@ Partial Class frmCarInventory
         Me.txtPrice.Name = "txtPrice"
         Me.txtPrice.Size = New System.Drawing.Size(245, 31)
         Me.txtPrice.TabIndex = 7
+        Me.CarToolTip.SetToolTip(Me.txtPrice, "Estimated current value of the car")
         '
         'lblPrice
         '
@@ -124,8 +127,9 @@ Partial Class frmCarInventory
         Me.chkNew.Location = New System.Drawing.Point(42, 219)
         Me.chkNew.Name = "chkNew"
         Me.chkNew.Size = New System.Drawing.Size(92, 29)
-        Me.chkNew.TabIndex = 9
+        Me.chkNew.TabIndex = 8
         Me.chkNew.Text = "&New:"
+        Me.CarToolTip.SetToolTip(Me.chkNew, "Tick this box if the car is new")
         Me.chkNew.UseVisualStyleBackColor = True
         '
         'lvwCars
@@ -139,7 +143,8 @@ Partial Class frmCarInventory
         Me.lvwCars.MultiSelect = False
         Me.lvwCars.Name = "lvwCars"
         Me.lvwCars.Size = New System.Drawing.Size(882, 283)
-        Me.lvwCars.TabIndex = 11
+        Me.lvwCars.TabIndex = 9
+        Me.CarToolTip.SetToolTip(Me.lvwCars, "List of car inventory")
         Me.lvwCars.UseCompatibleStateImageBehavior = False
         Me.lvwCars.View = System.Windows.Forms.View.Details
         '
@@ -179,15 +184,17 @@ Partial Class frmCarInventory
         Me.lbResult.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.lbResult.Name = "lbResult"
         Me.lbResult.Size = New System.Drawing.Size(882, 153)
-        Me.lbResult.TabIndex = 12
+        Me.lbResult.TabIndex = 10
+        Me.CarToolTip.SetToolTip(Me.lbResult, "Output/Errors of the program")
         '
         'btnEnter
         '
         Me.btnEnter.Location = New System.Drawing.Point(420, 763)
         Me.btnEnter.Name = "btnEnter"
         Me.btnEnter.Size = New System.Drawing.Size(155, 73)
-        Me.btnEnter.TabIndex = 13
+        Me.btnEnter.TabIndex = 11
         Me.btnEnter.Text = "&Enter"
+        Me.CarToolTip.SetToolTip(Me.btnEnter, "Press this to enter the details of the new entry")
         Me.btnEnter.UseVisualStyleBackColor = True
         '
         'btnReset
@@ -196,8 +203,9 @@ Partial Class frmCarInventory
         Me.btnReset.Location = New System.Drawing.Point(581, 763)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(155, 73)
-        Me.btnReset.TabIndex = 14
+        Me.btnReset.TabIndex = 12
         Me.btnReset.Text = "&Reset"
+        Me.CarToolTip.SetToolTip(Me.btnReset, "Press this to reset the form inputs")
         Me.btnReset.UseVisualStyleBackColor = True
         '
         'btnExit
@@ -205,8 +213,9 @@ Partial Class frmCarInventory
         Me.btnExit.Location = New System.Drawing.Point(742, 763)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(155, 73)
-        Me.btnExit.TabIndex = 15
+        Me.btnExit.TabIndex = 13
         Me.btnExit.Text = "E&xit"
+        Me.CarToolTip.SetToolTip(Me.btnExit, "Quit the application")
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'frmCarInventory

@@ -1,5 +1,10 @@
 ﻿Option Strict On
 
+''' <summary>
+''' Author: Ali Hassan Mahdi
+''' Date: July 12, 2019
+''' Description: This class holds the properties and methods of Car
+''' </summary>
 Public Class Car
 
     Private make As String = String.Empty

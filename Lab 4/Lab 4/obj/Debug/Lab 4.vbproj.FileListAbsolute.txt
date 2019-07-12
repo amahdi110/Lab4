@@ -10,3 +10,15 @@ C:\Users\Macintosh\Desktop\College\Sumer 2019\NET\Lab 4\Lab 4\obj\Debug\Lab 4.ex
 C:\Users\Macintosh\Desktop\College\Sumer 2019\NET\Lab 4\Lab 4\obj\Debug\Lab 4.xml
 C:\Users\Macintosh\Desktop\College\Sumer 2019\NET\Lab 4\Lab 4\obj\Debug\Lab 4.pdb
 C:\Users\Macintosh\Desktop\College\Sumer 2019\NET\Lab 4\Lab 4\obj\Debug\Lab_4.frmCarInventory.resources
+C:\Users\Macintosh\Documents\GitHub\Lab4\Lab 4\Lab 4\bin\Debug\Lab 4.exe.config
+C:\Users\Macintosh\Documents\GitHub\Lab4\Lab 4\Lab 4\bin\Debug\Lab 4.exe
+C:\Users\Macintosh\Documents\GitHub\Lab4\Lab 4\Lab 4\bin\Debug\Lab 4.pdb
+C:\Users\Macintosh\Documents\GitHub\Lab4\Lab 4\Lab 4\bin\Debug\Lab 4.xml
+C:\Users\Macintosh\Documents\GitHub\Lab4\Lab 4\Lab 4\obj\Debug\Lab 4.vbprojAssemblyReference.cache
+C:\Users\Macintosh\Documents\GitHub\Lab4\Lab 4\Lab 4\obj\Debug\Lab_4.frmCarInventory.resources
+C:\Users\Macintosh\Documents\GitHub\Lab4\Lab 4\Lab 4\obj\Debug\Lab_4.Resources.resources
+C:\Users\Macintosh\Documents\GitHub\Lab4\Lab 4\Lab 4\obj\Debug\Lab 4.vbproj.GenerateResource.cache
+C:\Users\Macintosh\Documents\GitHub\Lab4\Lab 4\Lab 4\obj\Debug\Lab 4.vbproj.CoreCompileInputs.cache
+C:\Users\Macintosh\Documents\GitHub\Lab4\Lab 4\Lab 4\obj\Debug\Lab 4.exe
+C:\Users\Macintosh\Documents\GitHub\Lab4\Lab 4\Lab 4\obj\Debug\Lab 4.xml
+C:\Users\Macintosh\Documents\GitHub\Lab4\Lab 4\Lab 4\obj\Debug\Lab 4.pdb

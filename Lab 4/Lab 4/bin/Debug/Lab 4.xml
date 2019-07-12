@@ -22,6 +22,13 @@ Lab 4
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:Lab_4.Car">
+ <summary>
+ Author: Ali Hassan Mahdi
+ Date: July 12, 2019
+ Description: This class holds the properties and methods of Car
+ </summary>
+</member>
 <member name="M:Lab_4.Car.#ctor">
  <summary>
  Constructor - Default - creates a new car object
@@ -31,6 +38,21 @@ Lab 4
  <summary>
  Constructor - Parameterized - creates a new car object
  </summary>
+</member>
+<member name="T:Lab_4.frmCarInventory">
+ <summary>
+ Author: Ali Hassan Mahdi
+ Date: July 12
+ Description: This application allows the user to enter their car inventory
+ Disclaimer: This project has been completed with help from CustomersList example project
+ </summary>
+</member>
+<member name="M:Lab_4.frmCarInventory.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ This method validates the user's input and enters the entry into the car list
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
 </member>
 <member name="M:Lab_4.frmCarInventory.Reset">
  <summary>
